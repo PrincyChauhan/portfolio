@@ -1,837 +1,714 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Princy Chauhan - Personal Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Princy Chauhan - Personal Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/my-avatar.png"
-              alt="Princy Chauhan"
-              width="80"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Princy Chauhan" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Princy Chauhan">Princy Chauhan</h1>
+        <div class="info-content">
+          <h1 class="name" title="Princy Chauhan">Princy Chauhan</h1>
 
-            <p class="title">Web developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Web developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:princychauhan27@gmail.com" class="contact-link"
-                  >princychauhan27@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="mailto:princychauhan27@gmail.com" class="contact-link">princychauhan27@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+919638653060" class="contact-link"
-                  >+91 9638653060</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+              <a href="tel:+919638653060" class="contact-link">+91 9638653060</a>
+            </div>
+          </li>
 
-                <time datetime="1982-06-23">June 27, 2001</time>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+              <time datetime="1982-06-23">June 27, 2001</time>
+            </div>
+          </li>
 
-                <address>Ahmedabad</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.facebook.com/princy.chauhan.777701"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+              <address>Ahmedabad</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a
-                href="https://twitter.com/PrincyChauhan6"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
+        <div class="separator"></div>
 
-            <li class="social-item">
-              <a
-                href="https://www.instagram.com/princychauhan_/"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/princy.chauhan.777701" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a
-                href="https://github.com/PrincyChauhan/"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+          <li class="social-item">
+            <a href="https://twitter.com/PrincyChauhan6" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/princy-chauhan/"
-                target="_blank"
-                class="social-link"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+          <li class="social-item">
+            <a href="https://www.instagram.com/princychauhan_/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
 
-      <!--
+          <li class="social-item">
+            <a href="https://github.com/PrincyChauhan/" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/princy-chauhan/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
 
-            <!-- <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li> -->
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Certifications</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">Objective</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">Objective</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              To be associated with a growing organization that provides me with
-              the scope to enhance my skills as per the latest trends and to
-              become a team that progressively work towards the growth of the
-              organization.
-            </p>
+        <section class="about-text">
+          <p>
+            To be associated with a growing organization that provides me with
+            the scope to enhance my skills as per the latest trends and to
+            become a team that progressively work towards the growth of the
+            organization.
+          </p>
 
-            <p>
-              As engineer, I am an enthusiastic person who is ready to learn new
-              technologies and I am passionate about the work I do and give my
-              best.
-            </p>
-          </section>
+          <p>
+            As engineer, I am an enthusiastic person who is ready to learn new
+            technologies and I am passionate about the work I do and give my
+            best.
+          </p>
+        </section>
 
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              I worked on core PHP during my college days. Real estate and a
-              COVID testing management system are my two PHP projects. I
-              received my first internship at Invofue, which is essentially a
-              web development company located in Kolkata, during the COVID-19
-              period. I spent those days honing my web development abilities and
-              finishing various modules. It enabled me to develop my abilities.
-              <br />
-              <br />
-              Helicore hired me and offered me the chance to work as a NodeJS
-              developer. I consequently began using NodeJS. I worked on a
-              variety of Node.js modules and projects, including Swarnim, Ravel,
-              MS-Authentication, MS-Notification, and MS-Application.
-              <br />
-              <br />
-              First time I've ever heard of "Sequelize." I learned how to use
-              Sequelize in node during the Swarnim project. I learned more about
-              the service, microservice, and API gateway using Ms-authentication
-              and Ms-notification. I discovered knowledge of the MVC
-              (Model–View–Controller) architecture. I use MongoDB for this and
-              am familiar with the operation of NoSQL databases.
-            </p>
-          </section>
+        <section class="about-text">
+          <p>
+            I am enthusiastic and ready to learn new technologies, and I am passionate about the work I do and give my
+            best.
+            <br>
+            I worked on core PHP during my college days. Real estate and the COVID testing management system are my two
+            PHP projects. I did my first internship at Infovue, a web development company located in Kolkata, during the
+            COVID period. I spent those days honing my web development abilities and finishing various modules. It
+            helped me enhance my skills.
+            <br>
+            Helicore hired me and offered me the chance to work as a NodeJS developer. I consequently began using
+            NodeJS. I worked on various Node.js modules and projects, including Swarnim, Ravel, MS-Authentication,
+            MS-Notification, and MS-Application.
+            <br>
+            I learned how to use Sequelize in node during the Swarnim project. I learned more about the service,
+            microservice, and API gateway using Ms-authentication and Ms-notification. I discovered knowledge of the MVC
+            (Model-View-Controller) architecture. I used MongoDB for this and am familiar with the operation of NoSQL
+            databases.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
-
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
-
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
-
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
               </div>
-            </section>
-          </div>
-        </article>
 
-        <!--
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a
+                  professional level.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Saffrony Institute of Technology, S.P.B. Patel Engineering
-                  College - Mehsana
-                </h4>
-                <span>2018 — 2022</span>
-                <span>9.57 CGPA</span>
-              </li>
+            <h3 class="h3">Education</h3>
+          </div>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Matruchhaya Kanya Vidhyalay , Bhuj - Kutch
-                </h4>
-                <span>2014 — 2018</span>
-                <span>Science stream</span>
-              </li>
-            </ol>
-          </section>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Saffrony Institute of Technology, S.P.B. Patel Engineering
+                College - Mehsana
+              </h4>
+              <span>2018 — 2022</span>
+              <span>9.57 CGPA</span>
+            </li>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-              <h3 class="h3">Experience</h3>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Matruchhaya Kanya Vidhyalay , Bhuj - Kutch
+              </h4>
+              <span>2014 — 2018</span>
+              <span>Science stream</span>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
+            <h3 class="h3">Experience</h3>
+          </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Helicore Info Pvt Ltd</h4>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Helicore Info Pvt Ltd</h4>
 
-                <span>Web Development - Full Time</span>
-                <span>Apr 2022 — Present</span>
-                <span>Ahmedabad, Gujarat, India</span>
-              </li>
+              <span>Web Development - Full Time</span>
+              <span>Apr 2022 — Present</span>
+              <span>Ahmedabad, Gujarat, India</span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Helicore Info Pvt Ltd</h4>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Helicore Info Pvt Ltd</h4>
 
-                <span>Web Development - Internship</span>
-                <span>Jan 2022 — Apr 2022</span>
-                <span>Ahmedabad, Gujarat, India</span>
+              <span>Web Development - Internship</span>
+              <span>Jan 2022 — Apr 2022</span>
+              <span>Ahmedabad, Gujarat, India</span>
 
-                <p class="timeline-text">
-                  I spent the first few weeks of the internship revising core
-                  PHP concepts. After becoming familiar with the fundamental
-                  concepts, I worked on front-end and back-end technologies,
-                  including modules written in core PHP such as the Register,
-                  Product, and Leave modules. Then I began working on Node JS, a
-                  new technology. created APIs for the Blogger website and
-                  administration panel In general, I learned a lot about various
-                  tools and technologies during my three-month internship.
-                </p>
-              </li>
+              <p class="timeline-text">
+                I spent the first few weeks of the internship revising core
+                PHP concepts. After becoming familiar with the fundamental
+                concepts, I worked on front-end and back-end technologies,
+                including modules written in core PHP such as the Register,
+                Product, and Leave modules. Then I began working on Node JS, a
+                new technology. created APIs for the Blogger website and
+                administration panel In general, I learned a lot about various
+                tools and technologies during my three-month internship.
+              </p>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Infovue</h4>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Infovue</h4>
 
-                <span>Web development</span>
-                <span>May 2021 — Aug 2021</span>
-                <span>Kolkata, West Bengal, India</span>
+              <span>Web development</span>
+              <span>May 2021 — Aug 2021</span>
+              <span>Kolkata, West Bengal, India</span>
 
-                <p class="timeline-text">
-                  During My Internship, I worked on various modules. Such as the
-                  Knowledgebase module, task module, ticket module, etc. I
-                  learned a lot about the back-end side as well as the front-end
-                  side.
-                </p>
-              </li>
+              <p class="timeline-text">
+                During My Internship, I worked on various modules. Such as the
+                Knowledgebase module, task module, ticket module, etc. I
+                learned a lot about the back-end side as well as the front-end
+                side.
+              </p>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Robocon Student's club</h4>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Robocon Student's club</h4>
 
-                <span>Team Member</span>
-                <span>March 2019 — March 2020</span>
-                <span>Saffrony Institute of Technology, Mehsana</span>
+              <span>Team Member</span>
+              <span>March 2019 — March 2020</span>
+              <span>Saffrony Institute of Technology, Mehsana</span>
 
-                <p class="timeline-text">
-                  I have one year of experience in International robotic events
-                  i.e ABU ROBOCON. I have performed as a team member role.
-                  During this year I worked with Arduino, WiFi modules like Node
-                  MCU, and various sensors. Done the communications with two
-                  wifi modules and Made a remote control robot. During this year
-                  I learned technical skills as well as nontechnical skills.
-                </p>
-              </li>
-            </ol>
-          </section>
+              <p class="timeline-text">
+                I have one year of experience in International robotic events
+                i.e ABU ROBOCON. I have performed as a team member role.
+                During this year I worked with Arduino, WiFi modules like Node
+                MCU, and various sensors. Done the communications with two
+                wifi modules and Made a remote control robot. During this year
+                I learned technical skills as well as nontechnical skills.
+              </p>
+            </li>
+          </ol>
+        </section>
 
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Node JS</h5>
-                  <!-- <data value="80">80%</data> -->
-                </div>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Node JS</h5>
+                <!-- <data value="80">80%</data> -->
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Express JS</h5>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Express JS</h5>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">MongoDB</h5>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB</h5>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 65%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">SQL</h5>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Sequelize</h5>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Sequelize</h5>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 60%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Git</h5>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 60%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">TypeScript</h5>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">TypeScript</h5>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 50%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">PHP</h5>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 60%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
+        <section class="projects">
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
 
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
 
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web design</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a
-                  href="https://github.com/PrincyChauhan/Covid_TMS"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-1.jpg"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    COVID19 - Testing Management System
-                  </h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a
-                  href="https://github.com/PrincyChauhan/Real_Estate"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-3.jpg"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Real Estate</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
               </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a
-                  href="https://github.com/PrincyChauhan/to-do-list"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
 
-                    <img
-                      src="./assets/images/to-do-list.jpg"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">To Do List</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
               </li>
             </ul>
-          </section>
-        </article>
-        <!--
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/PrincyChauhan/Covid_TMS" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">
+                  COVID19 - Testing Management System
+                </h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/PrincyChauhan/Real_Estate" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Real Estate</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/PrincyChauhan/to-do-list" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/to-do-list.jpg" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">To Do List</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!--
         - #CONTACT
       -->
 
-        <article class="certifications" data-page="certifications">
-          <header>
-            <h2 class="h2 article-title">Certifications</h2>
-          </header>
+      <article class="certifications" data-page="certifications">
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Certifications</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Introduction to Cloud Identity
-                </h4>
-                <span>May 2021 - No Expiration Date</span>
-                <span><em>Issuing Organization : Microsoft</em></span>
-              </li>
+            <h3 class="h3">Certifications</h3>
+          </div>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Microsoft AI Classroom series
-                </h4>
-                <span>May 2021 - No Expiration Date</span>
-                <span><em>Issuing Organization : Microsoft</em></span>
-              </li>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Introduction to Cloud Identity
+              </h4>
+              <span>May 2021 - No Expiration Date</span>
+              <span><em>Issuing Organization : Microsoft</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  The Guinness World Record event - Most users to take an online
-                  computer programming lessons in 24 hrs
-                </h4>
-                <span>May 2021 - No Expiration Date</span>
-                <span
-                  ><em
-                    >Issuing Organization : GUVI Geek Networks, IITM Research
-                    Park</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Microsoft AI Classroom series
+              </h4>
+              <span>May 2021 - No Expiration Date</span>
+              <span><em>Issuing Organization : Microsoft</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Python</h4>
-                <span>May 2021 - No Expiration Date</span>
-                <span
-                  ><em
-                    >Issuing Organization : GUVI Geek Networks, IITM Research
-                    Park</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                The Guinness World Record event - Most users to take an online
+                computer programming lessons in 24 hrs
+              </h4>
+              <span>May 2021 - No Expiration Date</span>
+              <span><em>Issuing Organization : GUVI Geek Networks, IITM Research
+                  Park</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Introduction to Machine Learning : Art of the Possible
-                </h4>
-                <span>Apr 2021 - No Expiration Date</span>
-                <span
-                  ><em
-                    >Issuing Organization : Amazon Web Services (AWS)</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python</h4>
+              <span>May 2021 - No Expiration Date</span>
+              <span><em>Issuing Organization : GUVI Geek Networks, IITM Research
+                  Park</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Planning a Machine Learning Project
-                </h4>
-                <span>Apr 2021 - No Expiration Date</span>
-                <span
-                  ><em
-                    >Issuing Organization : Amazon Web Services (AWS)</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Introduction to Machine Learning : Art of the Possible
+              </h4>
+              <span>Apr 2021 - No Expiration Date</span>
+              <span><em>Issuing Organization : Amazon Web Services (AWS)</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">MINeD Hackathon</h4>
-                <span>Feb 2021 - No Expiration Date</span>
-                <span
-                  ><em>
-                    Issuing Organization : Nirma University, Ahmedabad,
-                    Gujarat</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Planning a Machine Learning Project
+              </h4>
+              <span>Apr 2021 - No Expiration Date</span>
+              <span><em>Issuing Organization : Amazon Web Services (AWS)</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Google Cloud Community Days India
-                </h4>
-                <span>Jan 2021 - No Expiration Date</span>
-                <span
-                  ><em>
-                    Issuing Organization : Google Developers Group</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">MINeD Hackathon</h4>
+              <span>Feb 2021 - No Expiration Date</span>
+              <span><em>
+                  Issuing Organization : Nirma University, Ahmedabad,
+                  Gujarat</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Foundation of Data science
-                </h4>
-                <span>Nov 2021 - No Expiration Date</span>
-                <span
-                  ><em>
-                    Issuing Organization : PadhAI - One Fourth Labs</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Google Cloud Community Days India
+              </h4>
+              <span>Jan 2021 - No Expiration Date</span>
+              <span><em>
+                  Issuing Organization : Google Developers Group</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  TCS iON Career Edge - Young Professional
-                </h4>
-                <span>Oct 2020 - No Expiration Date</span>
-                <span
-                  ><em>
-                    Issuing Organization : Tata Consultancy Services</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Foundation of Data science
+              </h4>
+              <span>Nov 2021 - No Expiration Date</span>
+              <span><em>
+                  Issuing Organization : PadhAI - One Fourth Labs</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  The Fundamental of Digital Marketing
-                </h4>
-                <span>May 2020 - No Expiration Date</span>
-                <span
-                  ><em>
-                    Issuing Organization : Google Digital Unlocked</em
-                  ></span
-                >
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                TCS iON Career Edge - Young Professional
+              </h4>
+              <span>Oct 2020 - No Expiration Date</span>
+              <span><em>
+                  Issuing Organization : Tata Consultancy Services</em></span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  DEVLOOP - Tech Conference
-                </h4>
-                <span>Jan 2020 - No Expiration Date</span>
-                <span
-                  ><em>
-                    Issuing Organization : Mehsana Developers Club-Gujarat</em
-                  ></span
-                >
-              </li>
-            </ol>
-          </section>
-        </article>
-      </div>
-    </main>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                The Fundamental of Digital Marketing
+              </h4>
+              <span>May 2020 - No Expiration Date</span>
+              <span><em>
+                  Issuing Organization : Google Digital Unlocked</em></span>
+            </li>
 
-    <!--
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                DEVLOOP - Tech Conference
+              </h4>
+              <span>Jan 2020 - No Expiration Date</span>
+              <span><em>
+                  Issuing Organization : Mehsana Developers Club-Gujarat</em></span>
+            </li>
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
